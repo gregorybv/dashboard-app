@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Header from "@/components/Header";
 import TopCards from "@/components/TopCards";
+import BarChar from "@/components/BarChar";
+import RecentOrders from "@/components/RecentOrders";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <main className='bg-gray-100 min-h-screen'>
         <Header/>
         <TopCards/>
+        <BarChar/>
+        <RecentOrders/>
       </main>
     </>
   )
